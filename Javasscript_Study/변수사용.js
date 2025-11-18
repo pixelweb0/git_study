@@ -1,0 +1,17 @@
+// 변수(variable) 사용하기
+
+/*
+변수선언 : let
+할당연산자 : =
+변수명 : espressoPrice, lattePrice, mochaPrice
+*/
+
+let espressoPrice = 3000;
+let lattePrice = 4300;
+let mochaPrice = 4800;
+
+console.log(espressoPrice * 2);
+console.log(lattePrice * 4 + mochaPrice * 2);
+console.log(lattePrice + mochaPrice);
+console.log(espressoPrice + lattePrice * 4 + mochaPrice * 2);
+console.log(lattePrice * 3);
