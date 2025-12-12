@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>JS with Input Event</title>
+  </head>
+
+  <body>
+    <div id="form">
+      <h1 class="title">Hello !</h1>
+      <input type="text" id="username" class="input" placeholder="Username" />
+      <input type="password" id="password" class="input" placeholder="Password" />
+      <input type="button" id="submit" class="btn" value="Sign in" />
+      <input type="checkbox" id="checkbox" />
+      <label for="checkbox">Stay Signed in</label>
+    </div>
+  
+    <script src="input-event.js"></script>
+  </body>
+</html>
+  
+<style>
+  #form {
+    width: 250px;
+    height: 250px;
+    margin: 70px 30px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px #bfbfbf;
+    border-radius: 5px;
+  }
+
+  .title {
+    margin: 10px 0 15px;
+    text-align: center;
+    color: #6502c2;
+  }
+
+  .input {
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .btn {
+    width: 100%;
+    height: 40px;
+    margin: 15px 0 10px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(276deg, #710ad2, #8e43e6);
+  }
+</style>
